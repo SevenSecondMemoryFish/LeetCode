@@ -6,7 +6,7 @@ import java.util.List;
 public class _82_删除排序链表中的重复元素II {
     public static void main(String[] args) {
         int[] index = {2,3,4,5};
-         List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(1);
         list.add(2);
