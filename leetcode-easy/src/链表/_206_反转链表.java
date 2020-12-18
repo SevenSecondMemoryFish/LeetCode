@@ -1,5 +1,8 @@
 package 链表;
 
+/**
+ * leetcode: https://leetcode-cn.com/problems/reverse-linked-list/
+ */
 public class _206_反转链表 {
     public static void main(String[] args) {
         int[] lists = {1,4,3,2,5,2};

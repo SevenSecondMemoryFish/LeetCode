@@ -2,6 +2,9 @@ package 链表;
 
 import java.util.Stack;
 
+/**
+ * lettcode: https://leetcode-cn.com/problems/palindrome-linked-list/
+ */
 public class _234_回文链表 {
 
     public static void main(String[] args) {
