@@ -9,8 +9,8 @@ public class _234_回文链表 {
 
     public static void main(String[] args) {
         int[] list = {1,2};
-        ListNode listNode = ListNode.createList(list);
-        isPalindrome(listNode);
+        ListNode head = ListNode.createList(list);
+        isPalindrome(head);
     }
 
     /**
