@@ -31,9 +31,12 @@ public class ListNode {
 
     @Override
     public String toString() {
-        return "ListNode{" +
-            "val=" + val +
-            ", next=" + next +
-            '}';
+        StringBuffer buffer = new StringBuffer();
+        buffer.append("ListNode { val= ");
+        buffer.append(val);
+        buffer.append(", next=");
+        buffer.append(next);
+        buffer.append("}");
+        return buffer.toString();
     }
 }

@@ -19,12 +19,13 @@ public class _02_05_链表求和 {
             sum = value / 10;
             current.next = c;
             current = c;
-            a = a.next;
-            b = b.next;
+            a = a != null ? a.next : null;
+            b = b != null ? b.next : null;
         }
-        if (sum / 10 > 0) {
-            current.next = new ListNode(sum/10);
+        if (sum > 0) {
+            current.next = new ListNode(sum);
         }
         return node.next;
     }
+
 }
