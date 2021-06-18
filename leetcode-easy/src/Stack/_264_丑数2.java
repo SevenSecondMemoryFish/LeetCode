@@ -10,7 +10,7 @@ public class _264_丑数2 {
         int[] ints = new int[n+1];
         ints[1] = 1;
         for (int ix1 = 1, ix2 = 1, ix3 = 1, i = 2; i <= n; i++) {
-            int a = ints[ix1] * 2, b = ints[ix3] * 3, c = ints[ix3] * 5;
+            int a = ints[ix1] * 2, b = ints[ix2] * 3, c = ints[ix3] * 5;
             int d = Math.min(a, b);
             d = Math.min(d,c);
             if (d == a ) ix1++;
