@@ -6,7 +6,7 @@ public class _402_移掉K位数字 {
     public static void main(String[] args) {
         char c = '\0';
         System.out.println( 'a');
-        removeKdigits("112", 1);
+        removeKdigits("7483102", 2);
     }
 
     /**
@@ -50,6 +50,7 @@ public class _402_移掉K位数字 {
             Character c = stack.pop();
             buffer.insert(0, c);
         }
+        System.out.println(buffer.toString());
         return buffer.toString();
     }
 }
