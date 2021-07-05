@@ -25,7 +25,6 @@ public class _636_函数的独占时间 {
             if (split[1].equals("start")) {
                 stack.push(new int[]{id,time});
             } else {
-
                 int[] pop = stack.pop();
                 int interval = time - pop[1] + 1;
                 ints[pop[0]] += interval;
