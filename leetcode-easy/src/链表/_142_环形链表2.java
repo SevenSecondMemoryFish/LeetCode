@@ -14,7 +14,8 @@ public class _142_环形链表2 {
      *      2.1此时快指针也是 f = s + n*b,快指针可能饶了n券了
      *      2.2，计算得知s = nb，f = 2*nb
      *  3.关键时刻到了，每次走到环线入口节点步数为  k = a + nb
-     *      3.1 如果让slow走到环形的入口节点还需要走a步，那么是不是就是从head走到环线入口点就是a步呢，所以将head赋值给快指针，如果 slow和fast刚好相等是不是就是环形入口处
+     *      3.1 如果让slow走到环形的入口节点还需要走a步，那么是不是就是从head走到环线入口点就是a步呢，所以将head赋值给快指针，
+     *      如果 slow和fast刚好相等是不是就是环形入口处
      */
     public ListNode nb_detectCycle(ListNode head) {
         if (head == null || head.next == null)return null;
