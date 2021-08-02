@@ -28,6 +28,7 @@ public class _581_最短无序连续子数组 {
             if (min < nums[i])left = i;
             min = Math.min(min,nums[i]);
         }
+
         return right == left ? 0 : right - left + 1;
     }
 }
